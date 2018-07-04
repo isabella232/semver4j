@@ -4,7 +4,7 @@
 
     <groupId>org.graylog.repackaged</groupId>
     <artifactId>semver4j</artifactId>
-    <version>2.2.0-graylog.1-SNAPSHOT</version>
+    <version>2.2.0-graylog.1</version>
     <packaging>jar</packaging>
 
     <name>semver4j</name>

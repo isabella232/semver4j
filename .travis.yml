@@ -7,4 +7,4 @@ jdk:
   - openjdk11
 
 after_success:
-  - mvn clean cobertura:cobertura coveralls:report
+  - if [ "$TRAVIS_JDK_VERSION" = "oraclejdk8" ]; then mvn clean cobertura:cobertura coveralls:report; fi
